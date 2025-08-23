@@ -1,0 +1,59 @@
+.hero{
+    width: 100vw; 
+    margin-top: 15px;
+    height: 100vh;
+}
+.main{
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+.main-box{
+    width: 95%;
+    margin: auto;
+    display: flex ;
+     background-color: #F08B51;
+     display: flex;
+     border-radius: 10px;
+     padding: 10px;
+}
+.main-section{
+    width: 90%;
+   background: none;
+    padding: 20px;
+    margin: auto;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.main-section h2{
+    background: none;
+    width: fit-content;
+    color: #896C6C;
+}
+.main-section button{
+    width: fit-content;
+    color: #896C6C;
+}
+img{
+     width: 190px;
+     object-fit: cover;
+     background-color: #F08B51;
+}
+.bot{
+    height: 70px;
+    width: 70px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #896C6C;
+    box-shadow:inset ;
+    position: absolute;
+    background-color:#F08B51 ;
+    display: flex;
+    justify-content: center;
+    border-radius:100% ;
+    align-items: center;
+    bottom:50px ;
+    right: 40px;
+}
